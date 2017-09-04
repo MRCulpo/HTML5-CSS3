@@ -1,0 +1,113 @@
+html
+{
+    font-size: 100%;
+}
+h1
+{
+    font-family: cursive;
+    font-size: 3em;
+}
+
+h2
+{
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+.titulo-logo
+{
+    background-color: #CCC;
+    border: ridge ;
+    border-width: .2em;
+    text-align: center;
+    padding: .5em;
+    font-size: 3em;
+}
+
+.titulo-sub
+{
+    background-color: #CCC;
+    text-align: center;
+    font-style: oblique;
+    padding: .6em;
+    font-size: 1em;
+}
+
+.nave-base
+{
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+.nave-base ul
+{
+    text-align: center;
+}
+
+.nave-base ul li
+{
+    display: inline-block;
+}
+
+.nave-base ul li a {
+    padding: .2em .5em;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border: solid;
+    border-color: rgba(0,0,0, 0.5);
+}
+
+.nave-base ul li a:hover 
+{
+    background-color:#FFF;
+}
+/* Configuração de cada folha do artigo */
+.content-article
+{
+    display: flex;
+    padding: .5em 2em;
+}
+/*- 
+Configurações das noticias por blocos, conteudo
+-*/
+.noticias-blocos
+{
+    background-color: #CCC;
+    border: solid;
+    margin: .2em;
+    width: 100%;
+    height: 15em;
+}
+
+.noticias-blocos:hover
+{
+    background-color: rgb(105,105,105);
+}
+
+.noticias-topico
+{   
+    padding-top: .5em;
+    height: 80%;
+}
+
+.noticias-topico h2
+{
+    background-color: rgba(255,255,255,1);
+    font-weight: bold;
+    padding: .7em;
+    text-align: center;
+}
+.noticias-resumo
+{
+    height: 20%;
+}
+
+.noticias-resumo p
+{   
+    background-color: rgba(255,255,255,1);
+    text-align: center;
+}
